@@ -1,4 +1,3 @@
 #!/bin/bash
 export PYTHONPATH="$PYTHONPATH:/home/site/wwwroot"
-cd /home/site/wwwroot
-exec python -u main.py
+exec python -u /home/site/wwwroot/main.py
